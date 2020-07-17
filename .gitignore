@@ -3,3 +3,6 @@ WNaaS.iml
 src/main/resources/
 target/
 *.iml
+build/
+out/
+.gradle/

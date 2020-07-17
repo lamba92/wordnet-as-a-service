@@ -39,7 +39,7 @@ public class Server {
         dictionary = Dictionary.getDefaultResourceInstance();
 
         System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "info");
-        port(5679);
+        port(80);
         System.out.println("Server started at port 5679");
 
 
