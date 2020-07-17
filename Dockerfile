@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM adoptopenjdk:8-jdk-hotspot-bionic
 RUN apt-get update && apt-get install -y maven
 RUN update-java-alternatives -s java-1.8.0-openjdk-amd64
 ADD . /opt/wordnet_as_a_service
